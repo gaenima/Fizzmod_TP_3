@@ -1,1 +1,26 @@
-
+{
+	"contenidoStr": "{\n  \"type\": \"module\",\n  \"name\": \"tp3server\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n    \"start\": \"nodemon index.js\"\n  },\n  \"engines\": {\n    \"node\": \">=14.0.0\",\n    \"npm\": \">=6.0.0\"\n  },\n  \"keywords\": [],\n  \"author\": \"GS\",\n  \"license\": \"MIT\",\n  \"dependencies\": {\n    \"express\": \"^4.17.1\",\n    \"nodemon\": \"^2.0.7\"\n  }\n}\n",
+	"contenidoObj": {
+		"type": "module",
+		"name": "tp3server",
+		"version": "1.0.0",
+		"description": "",
+		"main": "index.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1",
+			"start": "nodemon index.js"
+		},
+		"engines": {
+			"node": ">=14.0.0",
+			"npm": ">=6.0.0"
+		},
+		"keywords": [],
+		"author": "GS",
+		"license": "MIT",
+		"dependencies": {
+			"express": "^4.17.1",
+			"nodemon": "^2.0.7"
+		}
+	},
+	"size": 418
+}
