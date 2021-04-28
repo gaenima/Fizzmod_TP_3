@@ -1,7 +1,5 @@
 import express from 'express'
-import fs from 'fs'
-import util from 'util'
-import * as ope from '../api/operaciones.js'
+import {calculo} from '../api/operaciones.js'
 import {randomNumber} from '../api/random.js'
 import  * as info  from '../api/fileSystem.js'
 
@@ -41,7 +39,7 @@ router.get('/operaciones', (req, res) => {
    
     let {num1, num2, operacion} = req.query
     
-    res.json(ope.operaciones(num1, num2, operacion))
+    res.json(calculo(num1, num2, operacion))
    
 })
 
